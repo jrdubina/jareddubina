@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<div id="topheader">
+			<div id="headercont"><br />
+				<img border="0" align="middle" src="header.png"></img>
+			</div>
+		</div>
+	</head>
+	<body>
+		<div id="bodystyle">
+
+		<br /><br />
+			
+			<div id="maincolumn">
+				<div id="searchbox">
+					<div id="innerbox">
+						<div id="searchtitle">
+							What is the merchant needing today?
+						</div>
+						<form action="http://10.9.244.56/Integrations/intormts.php" name="myform" method="POST">
+						<div id="selectbox">
+							<select id="selectbox" onChange="document.forms['myform'].submit();" name="selectbox">
+								<option value="selec">Please select one...</option>
+								<option value="APmts">Adaptive payment issues or not working</option>
+								<option value="APint">Adaptive payments to be set up for website</option>
+								<option value="APImts">APIs not going through or errors</option>
+								<option value="BMLint">BML banners put on website</option>
+								<option value="SUint">Help getting Pro, Advanced or ECS on site</option>
+								<option value="IPNmts">IPN is not working or has issues</option>
+								<option value="IPNint">IPN set up for website</option>
+								<option value="APIint">Needs API signature or certificate for site</option>
+								<option value="PAYmts">Payment is going through but some data is not appearing</option>
+								<option value="PAYsmts">Payments are not processing</option>
+								<option value="BUTmts">PayPal Button issues or not working</option>
+								<option value="BUTint">PayPal Button needs to be put up on website</option>
+								<option value="RECmts">Receiving errors with Pro, Advanced or ECS</option>
+								<option value="SANmts">Sandbox errors</option>
+								<option value="SANint">Sandbox setup with site in order to test</option>
+							</select></form>
+						</div>
+						<div id="rn_SearchControls">
+							<a id="rn_SearchControls" href="mailto:msi@paypal.com?subject=My Question is Not Listed&body=Please describe your merchants question below:">
+								My Question is Not Listed
+							</a>
+						</div>
+					</div>
+				</div> 
+				<div id="bmlbanner"> &nbsp;&nbsp;&nbsp;
+					<script type="text/javascript" data-pp-pubid="6c22349823" data-pp-placementtype="170x100"> (function (d, t) {
+						"use strict";
+						var s = d.getElementsByTagName(t)[0], n = d.createElement(t);
+						n.src = "//paypal.adtag.where.com/merchant.js";
+						s.parentNode.insertBefore(n, s);
+						}(document, "script"));
+					</script>
+				</div>
+				<h2>
+					Integrations Team or MTS?
+				</h2><br />
+				<p> Not sure if Integrations or MTS should help your merchant?<br /><br />This site was developed to help answer that exact question.
+				</p>
+			</div>
+		</div>
+	<div id="pp_footer">
+		<div class="pp_footer pp_footer_menu">
+			<div id="pp_footer_menu">
+				        <a href="https://www.paypal.com/webapps/mpp/paypal-fees">
+							Fees
+						</a>
+						<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside">
+							Privacy
+						</a>
+						<a href="https://www.paypal.com/webapps/mpp/paypal-safety-and-security">
+							Security Center
+						</a>
+						<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_help&t=escalateTab">
+							Customer Support
+						</a>
+						<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/ua-outside">
+							Legal Agreements
+						</a>
+			</div>
+		</div>
+	</div>
+	<div id="pp_foot_copyright">
+		<div id="pp_copyright">
+			Copyright &copy; 1999 - 2014 PayPal. All rights reserved.
+		</div>
+	</div>
+	</body>
+</html>

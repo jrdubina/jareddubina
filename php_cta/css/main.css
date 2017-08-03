@@ -1,0 +1,11 @@
+.modal{
+	color:#000;
+	text-shadow:none;
+}
+input{
+	border:none;
+	outline: none;
+	background-color: rgba(208, 208, 208, .5);
+	color: #000;
+	margin-top: 5px;
+}

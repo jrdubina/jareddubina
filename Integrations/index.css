@@ -1,0 +1,186 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	background:#333;
+}
+a{
+	color: #0079C1;
+	text-decoration: none;
+	font-family: Arial,Helvetica,Tahoma,sans-serif;
+}
+a:link, a:visited, a:hover, a:active {
+}
+a:link {
+    color: #00C;
+}
+p{
+	font-size: 0.75em;
+	font-family: Arial,Helvetica,Tahoma,sans-serif;
+}
+h2{
+	border-bottom: 1px solid #E7E7E7;
+	font-family: "Helvetica Neue",Arial,sans-serif !important;
+	font-weight: 300;
+	margin-bottom: 8px;
+	padding: 4px;
+	font-size: 22px;
+	color: #666;
+	clear:both;
+	padding-top:30px;
+}
+h3{
+	font-family: "Helvetica Neue",Arial,sans-serif !important;
+	font-weight: 300;
+	font-size: 18px;
+	color: #666;
+	clear:both;
+}
+h4{
+	font-family: "Helvetica Neue",Arial,sans-serif !important;
+	font-weight: 300;
+	color: #666;
+	clear:both;
+}
+#topheader{
+	height: 72px;
+	background: none repeat scroll 0% 0% #F5F5F5;
+	border-bottom: 1px solid #FFF;
+}
+#headercont{
+    width: 988px;
+	height:50px;
+    margin: 0px auto;
+}
+#bodystyle{
+	height: 575px;
+	background: none repeat scroll 0% 0% #ededed;
+	border-bottom: 1px solid #DFDFDF;
+}
+#maincolumn{
+	min-height: 575px;
+	width: 988px;
+	overflow: visible;
+	height: auto !important;
+	margin: 0px auto;
+}
+#bmlbanner{
+	padding-top:25px;
+}
+#searchbox{
+	background: url('https://ppmts.custhelp.com/euf/rightnow/optimized/1386961132/themes/standard/images/interior-gradient-top.png') repeat-x scroll center top #E7E7E7;
+	border-radius: 5px;
+	border: 1px solid #BFBFBF;
+	clear: left;
+	float: left;
+	overflow: visible;
+	height: 150px;
+	padding: 4px;
+	width: 550px;
+	position: relative;
+}
+#innerbox{
+	background-color: #FFF;
+	padding: 20px 0px 0px 30px;
+	width: 520px;
+	height: 130px;
+	border-radius: 4px;
+}
+#searchtitle{
+	font-family: Helvetica Neue,Arial,sans-serif;
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 10px;
+}
+#selectbox{
+	font-weight: bold;
+	margin-bottom: 13px;
+	padding: 4px 4px 3px;
+	width: 400px;
+	border-radius: 4px;
+	font-family: Helvetica,Arial,sans-serif;
+}
+#buttonloc{
+	margin: -74px 0px 0px 422px;
+}
+#submitbutton{
+	padding: 5px 22px;
+	padding: 6px 8px;
+	text-decoration: none;
+	border: 1px solid #304764;
+	color: #FFF;
+	cursor: pointer;
+	font: bold 12px Helvetica,Arial,sans-serif;
+	background: url('https://ppmts.custhelp.com/euf/assets/themes/standard/images/buttonGradientCombo.png') repeat-x scroll #00A1FF;
+}
+#rn_SearchControls  a {
+	display: block;
+	right: inherit;
+	color: #0079C1;
+	top: 42px;
+	font-family: arial bold,sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#pp_footer{
+	clear:both;
+    width: 100%;
+	background-color: #F5F5F5;
+}
+.pp_footer pp_footer_menu{
+	border-top: 1px solid #FFF;
+	background-color: #F5F5F5;
+	box-shadow: 0px 5px 5px #5A595D;
+	width: 100%;
+}
+#pp_footer_menu{
+    padding-top: 18px;
+    width: 988px;
+    margin: 0px auto;
+    height: 34px;
+}
+#pp_footer_menu a {
+    color: #666;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+#pp_footer_menu a:hover {
+    color: #0079C1;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 25px;
+	text-decoration:underline;
+}
+#phplinks a{
+	font-size: 14px;
+	color: #0079C1;
+	text-decoration: none;
+}
+#phplinks a:hover{
+	font-size: 14px;
+	color: #0079C1;
+	text-decoration:underline;
+}
+#pp_foot_copyright{
+	clear:both;
+	margin: 0px;
+    padding: 0px;
+    background: #333;
+    padding-top: 20px;
+    min-height: 50px;
+	width: 100%;
+}
+#pp_copyright {
+	font-size: 0.75em;
+	line-height: 1.25em;
+	text-align: left;
+    color: #FFF;
+	width: 988px;
+    margin: 0px auto;
+}
