@@ -4,8 +4,8 @@
 		<title>Agent Authentication</title>
 	</head>
 	<body><center>
-	<img src="http://jareddubina.com/a/Connection.png" />
-		<?php 		
+	<img src="http://jareddubina.com/agenttool/Connection.png" />
+		<?php
 			$filename = $_GET["code"];
 			$lines = file("Codes\\" . $filename);
 
@@ -15,9 +15,9 @@
 			else {
 			echo "<font color='red'><h2>This Code is Invalid</h2></font>";
 			}
-			
+
 			unlink ("Codes\\" . $filename)
-		?> 
+		?>
     </center>
 	</body>
 </html>

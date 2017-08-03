@@ -4,7 +4,7 @@
 		<title>Agent Authentication</title>
 	</head>
 	<body><center>
-		<img src="http://jareddubina.com/a/Connection.png" />
+		<img src="http://jareddubina.com/agenttool/Connection.png" />
 		<h3>Please provide the following code to the agent</h3>
 		<h3><b><font color='006600'>
 		<?php
