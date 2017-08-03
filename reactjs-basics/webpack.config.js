@@ -11,7 +11,7 @@ var config = {
     publicPath: "/app/"
   },
   module: {
-    loader: [
+    loaders: [
       {
         test: /\.js?/,
         include: SRC_DIR,
