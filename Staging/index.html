@@ -1,0 +1,156 @@
+<?php session_start(); $thankYou=$ _SESSION[ 'confirm']; ?>
+<!doctype html>
+<html>
+
+<head>
+    <title>Jared Dubina | Web Design</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Hi, I'm Jared Dubina. I envision, design and create web interfaces. UI user interfaces and UX user experience">
+    <meta name="author" content="Jared Dubina">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>
+                document.createElement('video');
+            </script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="sections">
+        <section id="1">
+            <header>
+                <!-- Top Left JD -->
+                <div id="jd">
+                    <h2>JD</h2>
+
+                </div>
+                <!-- Navigation -->
+                <nav>
+                    <div id="navlinks">
+                        <a href="#" id="menu-icon"></a>
+
+                        <ul>
+                            <li><a class="navA" href="#2">Work</a>
+                            </li>
+                            <li><a class="navA" href="#3">About</a>
+                            </li>
+                            <li><a class="navA" href="#4">Hire</a>
+                            </li>
+                            <li><a class="navA" href="#5">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- Call for Hidden Header -->
+            <div id="hiddenheader"></div>
+            <!-- Introduction -->
+            <div id="intro">
+                <h1> Hi, I'm Jared Dubina</h1>
+
+                <p>I <span class="tog">envision</span><span class="tog">design</span><span class="tog">create</span> web experiences</p>
+            </div>
+        </section>
+        <section id="2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3">
+                        <a href="Integrations/index.html" target="_blank"><img class="top" src="images/PP.png" alt="PayPal Work">
+                        </a>
+                        <p>I previously worked for PayPal for over two years, while on the integration team. My responsibilities included the layout of many customers websites, internal pages and external pages. The page you can view by clicking the logo is one I built as a prototype and required the front-end to match PayPal's branding guidelines.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <a href="images/sw_transform.jpg" target="_blank"><img class="top" src="images/sw.png" alt="Social Whirled">
+                        </a>
+                        <p>When I started working at Social Whirled, one of my first projects was to edit the homepage. It was a blank canvas and needed some color and better user experience. Here is a look at the homepage before and after my design was put into place.</p><br /><p>Take a look at it live at <a href="http://socialwhirled.com" target="_blank">SocialWhirled.com</a>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                         <a href="raw33/wordpress/" target="_blank"><img class="top" src="images/R3.png" alt="Raw33 Work">
+                        </a>
+                        <p>Raw33 is a beauty product e-commerce site I am currently working on through WordPress and using the WooCommerce plug-in. Raw33 is seeking to have a clean site that consumers will have an easy time to navigate through their products. The site still has some work to be done, but I thought I would share the work in progress.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <a href="http://www.recordsbymail.com/" target="_blank"><img class="top" src="images/RC.png" alt="Records By Mail Work">
+                        </a>
+                        <p>Records By Mail was a site I helped with while working at PayPal. As you can see the PayPal express checkout and other PayPal products that I assisted with the integration of. I assisted with the PayPal API's and ensured the products worked seamless on the site.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="about">
+                <h2>Who am I</h2>
+                <p>I am an enthusiast about the fine details, I put my heart into my passions and continue to grow with each project I take on. Also, I am relentless at finding a perfect design and solution.</p>
+                <p>Born and raised in Phoenix, Arizona. I formally worked as an integration engineer at PayPal in Chandler. Currently looking for new work.</p>
+                <p>I primarily work on front-end development (HTML5, CSS3 and javascript). I have worked with PHP / mySQL and am familiar with it. Also, I am able to comfortable with Wordpress and Bootstrap. Finally, I have a lot of hands on with e-commerce and shopping carts.</p>
+                <p>Please contact me if you have any questions on my work.</p>
+				<img src="images/headshot.png" alt="My Face" class="center-block headshot" />
+				<p class="text-center"><em>"Design is everything to me"</em></p>
+            </div>
+        </section>
+        <section id="4">
+            <form method="post" action="contact.php">
+
+                
+                <?php echo $thankYou?>
+
+                <div class="form-group" id="form">
+                    <label>Name:</label>
+                    <input type="text" class="form-control" name="name" required>
+                    <label>Email:</label>
+                    <input type="email" class="form-control" name="email" required>
+                    <label>Budget:</label>
+                    <select id="selectBox" class="form-control" name="selectBox" required>
+                        <option value="select">Please select one...</option>
+                        <option value="1to5">$1,000 - $5,000</option>
+                        <option value="5to10">$5,000 - $10,000</option>
+                        <option value="10to50">$10,000 - $50,000</option>
+                        <option value="50toP">$50,000+</option>
+                    </select>
+                    <label>Tell me a little about what you're looking for:</label>
+                    <textarea id="message" class="form-control" name="message" required></textarea>
+                    <br />
+                    <input type="submit" class="btn btn-default" name="submit">
+                </div>
+            </form>
+        </section>
+        <section id="5">
+            <div class="container">
+                <div class="col-xs-12 text-center foot_links">
+                    <a href="https://www.linkedin.com/pub/jared-dubina/69/3b/ab1">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="http://stackoverflow.com/users/1770482/jared">
+                        <i class="fa fa-stack-overflow"></i>
+                    </a>
+                </div>
+			</div>
+        </section>
+      </div>
+
+    <!-- Background -->
+    <img src="images/color.png" alt="Background" id="bg" />
+    <!-- Clouds Images -->
+    <img src="images/1.png" alt="Clouds" class="clouds layer1" />
+    <img src="images/2.png" alt="Clouds" class="clouds layer2" />
+    <img src="images/3.png" alt="Clouds" class="clouds layer3" />
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/stuff.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!--My Css -->
+    <link rel="stylesheet" href="css/page.css">
+</body>
+
+</html>
