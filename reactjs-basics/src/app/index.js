@@ -1,7 +1,7 @@
 import React from "react";
-import {render} from "react-dom";
+ import ReactDOM from 'react-dom';
 
-class FirstApp extends React.Component{
+class FirstApp extends React.Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class FirstApp extends React.Component{
   }
 }
 
-render(<FirstApp/>, window.document.getElementByID("FirstApp"));
+ReactDOM.render(<FirstApp/>, window.document.getElementById("FirstApp"));
